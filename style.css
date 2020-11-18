@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 5px;
+    justify-content: center;
+}
+
+.item {
+    padding: 10px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.one {
+    grid-row-end: span 3;
+}
+
+.two {
+    grid-row-end: span 2;
+}
+
+.three {
+    grid-row-end: span 1;
+}
